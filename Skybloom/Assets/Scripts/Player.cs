@@ -39,16 +39,18 @@ public class Player : MonoBehaviour
     public Animator playerAnimator;
     public Rigidbody2D rb;
 
-    //States
+    //Move States
     public PlayerIdleState idleState { get; private set; }
     public PlayerMoveState moveState { get; private set; }
     public PlayerAirState airState { get; private set; }
     public PlayerJumpState jumpState { get; private set; }
     public PlayerWallSlideState wallSlideState { get; private set; }
+    public PlayerWallJumpState wallJumpState { get; private set; }   
     public PlayerLandState landState { get; private set; }
     public PlayerDashState dashState { get; private set; }
 
-
+    // Battle States
+    public PlayerPrimaryAttackState primaryAttackState { get; private set; }
 
     private void Awake()
     {
@@ -61,6 +63,9 @@ public class Player : MonoBehaviour
         landState = new PlayerLandState(this, stateMachine, "Land");
         dashState = new PlayerDashState(this, stateMachine, "Dash");
         wallSlideState = new PlayerWallSlideState(this, stateMachine, "WallSlide");
+        wallJumpState = new PlayerWallJumpState(this, stateMachine, "Jump");
+
+        primaryAttackState = new PlayerPrimaryAttackState(this, stateMachine, "Attack");
  
     }
 
@@ -78,7 +83,7 @@ public class Player : MonoBehaviour
     void Update()
     {
         stateMachine.currentState.Update();
-        CheckDash();
+        CheckDashInput();
 
         Debug.Log(IsWallDetected());
     }
@@ -95,8 +100,12 @@ public class Player : MonoBehaviour
         FlipController(_xVelocity);
     }
 
-    public void CheckDash()
+    public void CheckDashInput()
     {
+
+        if (IsWallDetected())
+            return;
+
         dashTimer -= Time.deltaTime;
 
         if (Input.GetKeyDown(KeyCode.LeftShift) && dashTimer < 0)
@@ -118,6 +127,8 @@ public class Player : MonoBehaviour
     public bool IsGroundDetected() => Physics2D.Raycast(groundCheck.position, Vector2.down, groundCheckDistance, whatIsGround);
 
     public bool IsWallDetected() => Physics2D.Raycast(wallCheck.position, Vector2.right * facingDireciton, wallCheckDistance, whatIsGround);
+
+    public void AnimationTrigger() => stateMachine.currentState.AnimationTrigger();
 
     public void Flip()
     {

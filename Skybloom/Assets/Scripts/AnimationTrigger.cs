@@ -16,6 +16,8 @@ public class AnimationTrigger : MonoBehaviour
         player.landTrigger = true;
       
     }
+
+    public void TriggerAttack() => player.AnimationTrigger();
    
 
 }

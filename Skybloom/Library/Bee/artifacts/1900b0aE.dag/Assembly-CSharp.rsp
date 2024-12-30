@@ -388,6 +388,8 @@
 "Assets/Scripts/States/PlayerJumpState.cs"
 "Assets/Scripts/States/PlayerLandState.cs"
 "Assets/Scripts/States/PlayerMoveState.cs"
+"Assets/Scripts/States/PlayerPrimaryAttackState.cs"
+"Assets/Scripts/States/PlayerWallJumpState.cs"
 "Assets/Scripts/States/PlayerWallSlideState.cs"
 -langversion:9.0
 

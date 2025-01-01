@@ -1,0 +1,306 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.23f1 (dbb3f7c5b5c6) revision 14398455'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16272 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2022.3.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+D:/Game Developments/GitHub/The-Skybloom/Skybloom
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+52105
+Successfully changed project path to: D:/Game Developments/GitHub/The-Skybloom/Skybloom
+D:/Game Developments/GitHub/The-Skybloom/Skybloom
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [31672] Host "[IP] 192.168.1.141 [Port] 0 [Flags] 2 [Guid] 3729438180 [EditorId] 3729438180 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DEP4F1H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [31672] Host "[IP] 192.168.1.141 [Port] 0 [Flags] 2 [Guid] 3729438180 [EditorId] 3729438180 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DEP4F1H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 291.43 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.23f1 (dbb3f7c5b5c6)
+[Subsystems] Discovering subsystems at path D:/Unity/2022.3.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Game Developments/GitHub/The-Skybloom/Skybloom/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Vendor:   NVIDIA
+    VRAM:     6031 MB
+    Driver:   32.0.15.6603
+Initialize mono
+Mono path[0] = 'D:/Unity/2022.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2022.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2022.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2022.3.23f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/2022.3.23f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity/2022.3.23f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: D:/Unity/2022.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007117 seconds.
+- Loaded All Assemblies, in  0.389 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 325 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.694 seconds
+Domain Reload Profiling: 1083ms
+	BeginReloadAssembly (124ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (152ms)
+		LoadAssemblies (125ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (149ms)
+			TypeCache.Refresh (148ms)
+				TypeCache.ScanAssembly (134ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (695ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (633ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (445ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (125ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.719 seconds
+Refreshing native plugins compatible for Editor in 7.08 ms, found 9 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.976 seconds
+Domain Reload Profiling: 1694ms
+	BeginReloadAssembly (158ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (471ms)
+		LoadAssemblies (342ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (222ms)
+			TypeCache.Refresh (182ms)
+				TypeCache.ScanAssembly (163ms)
+			ScanForSourceGeneratedMonoScriptInfo (27ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (976ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (783ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (619ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 9.56 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4899 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 101 unused Assets / (0.9 MB). Loaded Objects now: 5351.
+Memory consumption went from 173.5 MB to 172.5 MB.
+Total: 5.215300 ms (FindLiveObjects: 0.367100 ms CreateObjectMapping: 0.337300 ms MarkObjects: 3.864200 ms  DeleteObjects: 0.645900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/SortingLayer.cs: 2415e5b74e5c0e28e82450e2bbb41f9a -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 467790.885164 seconds.
+  path: Assets/Sprites/Hero Spritesheets/2 Hiro's Attacks And Spells/CHARGING, SLASHWAVE/Gif example.gif
+  artifactKey: Guid(4cf89b904d7eb754cabc33ddf7e6ce8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Hero Spritesheets/2 Hiro's Attacks And Spells/CHARGING, SLASHWAVE/Gif example.gif using Guid(4cf89b904d7eb754cabc33ddf7e6ce8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5de14dc0f0587f5f64b462532822f5') in 0.095707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 49.170390 seconds.
+  path: Assets/Sprites/Hero Spritesheets/2 Hiro's Attacks And Spells/BLADE ORBS/Gif example.gif
+  artifactKey: Guid(a7668495f3a47ed40a71364a58f8e261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Hero Spritesheets/2 Hiro's Attacks And Spells/BLADE ORBS/Gif example.gif using Guid(a7668495f3a47ed40a71364a58f8e261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfbdc48e5bbb86ce832caea04e43f921') in 0.027105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 10.673343 seconds.
+  path: Assets/Sprites/Hero Spritesheets/2 Hiro's Attacks And Spells/CROUCHED JAB/Gif example.gif
+  artifactKey: Guid(3c0b8f228d381d849a509dfd7bb480da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Hero Spritesheets/2 Hiro's Attacks And Spells/CROUCHED JAB/Gif example.gif using Guid(3c0b8f228d381d849a509dfd7bb480da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a066773e09a5673c0d18c679bd89ad6') in 0.023726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.723444 seconds.
+  path: Assets/Sprites/Hero Spritesheets/2 Hiro's Attacks And Spells/DASHATTACK/Gif example.gif
+  artifactKey: Guid(25b519724072a8d4ca66a3321725c65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Hero Spritesheets/2 Hiro's Attacks And Spells/DASHATTACK/Gif example.gif using Guid(25b519724072a8d4ca66a3321725c65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f4c8ff81ae63259da18a7a51219e38') in 0.027963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.471112 seconds.
+  path: Assets/Sprites/Hero Spritesheets/2 Hiro's Attacks And Spells/DISC CAST/DISC PROJECTILE.png
+  artifactKey: Guid(289036c33cc87f545ba2c90d223df27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Hero Spritesheets/2 Hiro's Attacks And Spells/DISC CAST/DISC PROJECTILE.png using Guid(289036c33cc87f545ba2c90d223df27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86428d654b08a50b4f5ab246f863e596') in 0.017610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 21.440266 seconds.
+  path: Assets/Sprites/Hero Spritesheets/2 Hiro's Attacks And Spells/EARTH SLAM/Gif example.gif
+  artifactKey: Guid(fc9075e5de1e12f4e84a597af204285d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Hero Spritesheets/2 Hiro's Attacks And Spells/EARTH SLAM/Gif example.gif using Guid(fc9075e5de1e12f4e84a597af204285d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72caaeeadd7cb7a9de0f7fb0a298c68f') in 0.031282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 12.214218 seconds.
+  path: Assets/Sprites/Hero Spritesheets/2 Hiro's Attacks And Spells/FLURRY SLASH/1 FLURRY SLASH/FLURRY SLASH OVERLAY FX.png
+  artifactKey: Guid(f0bc146833c6b0140b3224a71e99466b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Hero Spritesheets/2 Hiro's Attacks And Spells/FLURRY SLASH/1 FLURRY SLASH/FLURRY SLASH OVERLAY FX.png using Guid(f0bc146833c6b0140b3224a71e99466b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e38a3d627fb6791eb8746b01c8193f2') in 0.060229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 26.282563 seconds.
+  path: Assets/Sprites/Hero Spritesheets/2 Hiro's Attacks And Spells/FLURRY SLASH/2 (ALT NO-KANI FLURRY SLASH)/FLURRY SLASH OVERLAY FX.png
+  artifactKey: Guid(ab913bb344eb414468f347875b0475c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Hero Spritesheets/2 Hiro's Attacks And Spells/FLURRY SLASH/2 (ALT NO-KANI FLURRY SLASH)/FLURRY SLASH OVERLAY FX.png using Guid(ab913bb344eb414468f347875b0475c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6aebad12e21a652b345149f398d4f63') in 0.024360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 13.513730 seconds.
+  path: Assets/Sprites/Hero Spritesheets/2 Hiro's Attacks And Spells/MAGIC CAST, BUFF/1 NORMAL CAST/3 END.png
+  artifactKey: Guid(7c9c05669de48ef4e910402dcece97fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Hero Spritesheets/2 Hiro's Attacks And Spells/MAGIC CAST, BUFF/1 NORMAL CAST/3 END.png using Guid(7c9c05669de48ef4e910402dcece97fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790869bfda34f81cf334fd25b509ac1f') in 0.015961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.011716 seconds.
+  path: Assets/Sprites/Hero Spritesheets/2 Hiro's Attacks And Spells/MAGIC CAST, BUFF/1 NORMAL CAST/[3 AIR] END.png
+  artifactKey: Guid(22fcc75a7a1361840a49d6c98b9be759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Hero Spritesheets/2 Hiro's Attacks And Spells/MAGIC CAST, BUFF/1 NORMAL CAST/[3 AIR] END.png using Guid(22fcc75a7a1361840a49d6c98b9be759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4325d8d24201035f33c4b42f347db54b') in 0.014806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 19.558743 seconds.
+  path: Assets/Sprites/Hero Spritesheets/2 Hiro's Attacks And Spells/SWORD RAIN/''RAINDROP'' 4.png
+  artifactKey: Guid(0ae79ef9494340d46bb02ba22c3b4634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Hero Spritesheets/2 Hiro's Attacks And Spells/SWORD RAIN/''RAINDROP'' 4.png using Guid(0ae79ef9494340d46bb02ba22c3b4634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e08d22612d3456cdc28e172c0eea01') in 0.020141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.017912 seconds.
+  path: Assets/Sprites/Hero Spritesheets/2 Hiro's Attacks And Spells/SWORD RAIN/RAIN LADING TILE 1.png
+  artifactKey: Guid(21eff9ae70277b6468c67216d481473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Hero Spritesheets/2 Hiro's Attacks And Spells/SWORD RAIN/RAIN LADING TILE 1.png using Guid(21eff9ae70277b6468c67216d481473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a233c131dbeaf75f7d8fc0d4b50798c') in 0.018503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 36.175325 seconds.
+  path: Assets/Sprites/Hero Spritesheets/2 Hiro's Attacks And Spells/TWISTER/3 END.png
+  artifactKey: Guid(a32dcf36cdbb1944cbb298603299fb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Hero Spritesheets/2 Hiro's Attacks And Spells/TWISTER/3 END.png using Guid(a32dcf36cdbb1944cbb298603299fb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da86007b5a55b8e20be9ccf4976e8241') in 0.018401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.011886 seconds.
+  path: Assets/Sprites/Hero Spritesheets/2 Hiro's Attacks And Spells/TWISTER/ENEMY CONTACT 2.png
+  artifactKey: Guid(37024eff56215684db88e9bc5a70de06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Hero Spritesheets/2 Hiro's Attacks And Spells/TWISTER/ENEMY CONTACT 2.png using Guid(37024eff56215684db88e9bc5a70de06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12914e78bcff30b68539585475a58090') in 0.019730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

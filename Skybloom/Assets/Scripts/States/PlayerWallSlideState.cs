@@ -11,6 +11,7 @@ public class PlayerWallSlideState : PlayerState
     public override void Enter()
     {
         base.Enter();
+        Debug.Log("I am In Wall Slide State");
     }
 
     public override void Exit()

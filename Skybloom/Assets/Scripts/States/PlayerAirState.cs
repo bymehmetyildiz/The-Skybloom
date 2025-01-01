@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerAirState : PlayerState
 {
+
+
     public PlayerAirState(Player player, PlayerStateMachine stateMachine, string animBoolName) : base(player, stateMachine, animBoolName)
     {
     }
@@ -30,10 +32,15 @@ public class PlayerAirState : PlayerState
     {
         base.Update();
 
-        if (player.IsWallDetected())
+        if (player.IsWallDetected() && player.IsLedgeDetected())        
             stateMachine.ChangeState(player.wallSlideState);
 
         if (player.IsGroundDetected())
             stateMachine.ChangeState(player.landState);
+
+        if (!player.IsGroundDetected() && !player.IsLedgeDetected() && player.IsWallDetected() && !player.isHanging)
+            stateMachine.ChangeState(player.ledgeGrabState);
+
+
     }
 }

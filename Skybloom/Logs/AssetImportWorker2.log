@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.23f1 (dbb3f7c5b5c6) revision 14398455'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16272 MB
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'tr' Physical Memory: 32621 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-D:\Unity\2022.3.23f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2022.3.23f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker2
 -projectPath
-D:/Game Developments/GitHub/The-Skybloom/Skybloom
+D:/Github/The-Skybloom/Skybloom
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-52105
-Successfully changed project path to: D:/Game Developments/GitHub/The-Skybloom/Skybloom
-D:/Game Developments/GitHub/The-Skybloom/Skybloom
+52028
+Successfully changed project path to: D:/Github/The-Skybloom/Skybloom
+D:/Github/The-Skybloom/Skybloom
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,74 +49,65 @@ D:/Game Developments/GitHub/The-Skybloom/Skybloom
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23576] Host "[IP] 192.168.1.141 [Port] 0 [Flags] 2 [Guid] 1860409140 [EditorId] 1860409140 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DEP4F1H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [15664] Host "[IP] 10.0.1.59 [Port] 0 [Flags] 2 [Guid] 2090757803 [EditorId] 2090757803 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-P02AFH1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [23576] Host "[IP] 192.168.1.141 [Port] 0 [Flags] 2 [Guid] 1860409140 [EditorId] 1860409140 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DEP4F1H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15664] Host "[IP] 10.0.1.59 [Port] 0 [Flags] 2 [Guid] 2090757803 [EditorId] 2090757803 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-P02AFH1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 20.69 ms, found 4 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
+Refreshing native plugins compatible for Editor in 5.53 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.23f1 (dbb3f7c5b5c6)
-[Subsystems] Discovering subsystems at path D:/Unity/2022.3.23f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Game Developments/GitHub/The-Skybloom/Skybloom/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Github/The-Skybloom/Skybloom/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Renderer: NVIDIA GeForce RTX 3050 (ID=0x2507)
     Vendor:   NVIDIA
-    VRAM:     6031 MB
-    Driver:   32.0.15.6603
+    VRAM:     8056 MB
+    Driver:   31.0.15.3713
 Initialize mono
-Mono path[0] = 'D:/Unity/2022.3.23f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity/2022.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/Unity/2022.3.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity/2022.3.23f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: D:/Unity/2022.3.23f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: D:/Unity/2022.3.23f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Register platform support module: D:/Unity/2022.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011269 seconds.
-- Loaded All Assemblies, in  0.649 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003099 seconds.
+- Loaded All Assemblies, in  0.410 seconds
 Native extension for WindowsStandalone target not found
-[usbmuxd] Start listen thread
-[usbmuxd] Listen thread started
-Native extension for iOS target not found
-Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 464 ms
-Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.047 seconds
-Domain Reload Profiling: 1696ms
-	BeginReloadAssembly (183ms)
+- Finished resetting the current domain, in  0.156 seconds
+Domain Reload Profiling: 565ms
+	BeginReloadAssembly (168ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (69ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (95ms)
-	LoadAllAssembliesAndSetupDomain (284ms)
-		LoadAssemblies (182ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (161ms)
+		LoadAssemblies (169ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (280ms)
-			TypeCache.Refresh (277ms)
-				TypeCache.ScanAssembly (253ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (1048ms)
+		AnalyzeDomain (158ms)
+			TypeCache.Refresh (157ms)
+				TypeCache.ScanAssembly (140ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (156ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (946ms)
+		SetupLoadedEditorAssemblies (122ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (661ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (201ms)
-			ProcessInitializeOnLoadMethodAttributes (74ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (85ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -124,57 +115,55 @@ Domain Reload Profiling: 1696ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.983 seconds
-Refreshing native plugins compatible for Editor in 5.65 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.429 seconds
+Refreshing native plugins compatible for Editor in 2.82 ms, found 9 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.349 seconds
-Domain Reload Profiling: 2331ms
-	BeginReloadAssembly (230ms)
+- Finished resetting the current domain, in  0.506 seconds
+Domain Reload Profiling: 934ms
+	BeginReloadAssembly (101ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (54ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (625ms)
-		LoadAssemblies (444ms)
+		CreateAndSetChildDomain (12ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (275ms)
+		LoadAssemblies (223ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (314ms)
-			TypeCache.Refresh (265ms)
-				TypeCache.ScanAssembly (235ms)
-			ScanForSourceGeneratedMonoScriptInfo (37ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1349ms)
+		AnalyzeDomain (110ms)
+			TypeCache.Refresh (88ms)
+				TypeCache.ScanAssembly (79ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (506ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1078ms)
+		SetupLoadedEditorAssemblies (412ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (52ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (94ms)
-			ProcessInitializeOnLoadAttributes (863ms)
-			ProcessInitializeOnLoadMethodAttributes (58ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (329ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 5.86 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.01 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4158 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 65 unused Assets / (61.1 KB). Loaded Objects now: 4622.
-Memory consumption went from 151.6 MB to 151.5 MB.
-Total: 7.138400 ms (FindLiveObjects: 0.580000 ms CreateObjectMapping: 0.547300 ms MarkObjects: 5.842400 ms  DeleteObjects: 0.167900 ms)
+Unloading 4907 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 101 unused Assets / (0.9 MB). Loaded Objects now: 5356.
+Memory consumption went from 169.5 MB to 168.6 MB.
+Total: 2.665600 ms (FindLiveObjects: 0.187900 ms CreateObjectMapping: 0.053600 ms MarkObjects: 2.119700 ms  DeleteObjects: 0.304000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
@@ -188,158 +177,222 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 371266.299951 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab
-  artifactKey: Guid(8d3b16bf124f65b49b22817d94a88022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab using Guid(8d3b16bf124f65b49b22817d94a88022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2128627b34e7e650960ee87b26b684') in 0.002944 seconds
+  Time since last request: 9821.024090 seconds.
+  path: Assets/Sprites/Hero Spritesheets/1 Hiro's Core Animations/IDLE,WALK,TURN/1 IDLE [LOOP].png
+  artifactKey: Guid(00dcb7f0b3faaa24190186c3cc537f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Hero Spritesheets/1 Hiro's Core Animations/IDLE,WALK,TURN/1 IDLE [LOOP].png using Guid(00dcb7f0b3faaa24190186c3cc537f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd202f83f32f42bf254fcedb44e4551') in 0.073877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 4.820955 seconds.
+  path: Assets/Sprites/Hero Spritesheets/1 Hiro's Core Animations/IDLE,WALK,TURN/1 IDLE [LOOP].png
+  artifactKey: Guid(00dcb7f0b3faaa24190186c3cc537f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Hero Spritesheets/1 Hiro's Core Animations/IDLE,WALK,TURN/1 IDLE [LOOP].png using Guid(00dcb7f0b3faaa24190186c3cc537f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93a7fee46f7621934c739bc806d8070') in 0.022791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 7.430861 seconds.
+  path: Assets/Sprites/Hero Spritesheets/1 Hiro's Core Animations/IDLE,WALK,TURN/1 IDLE [LOOP].png
+  artifactKey: Guid(00dcb7f0b3faaa24190186c3cc537f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Hero Spritesheets/1 Hiro's Core Animations/IDLE,WALK,TURN/1 IDLE [LOOP].png using Guid(00dcb7f0b3faaa24190186c3cc537f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d65c3d4fe875c880c806e4bbc47f2c') in 0.030635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.289 seconds
+Refreshing native plugins compatible for Editor in 2.76 ms, found 9 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.685 seconds
+Domain Reload Profiling: 974ms
+	BeginReloadAssembly (105ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (141ms)
+		LoadAssemblies (168ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (685ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (400ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (317ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.40 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4879 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 58 unused Assets / (0.9 MB). Loaded Objects now: 5380.
+Memory consumption went from 168.9 MB to 168.0 MB.
+Total: 2.972800 ms (FindLiveObjects: 0.169500 ms CreateObjectMapping: 0.060200 ms MarkObjects: 2.447300 ms  DeleteObjects: 0.295300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6474.659858 seconds.
+  path: Assets/Sprites/Knight_player
+  artifactKey: Guid(8d599edac2e1a7948b9a9f6abafa0523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Knight_player using Guid(8d599edac2e1a7948b9a9f6abafa0523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47b32ea611e788b0f30cab94d9b8820a') in 0.001961 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.056931 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Anvil 01.prefab
-  artifactKey: Guid(c2f614a8e0864dc428810ace2ccc1584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Anvil 01.prefab using Guid(c2f614a8e0864dc428810ace2ccc1584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36c2eef583a044ad0cb4a04d7fd4a8d') in 0.154316 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Basket.prefab
-  artifactKey: Guid(33765db783031c64eb242d22002b9a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Basket.prefab using Guid(33765db783031c64eb242d22002b9a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2852fc424b855fc663473a16a1506e63') in 0.023285 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Campfire 01.prefab
-  artifactKey: Guid(e8bae36b607017047ace9061609051d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Campfire 01.prefab using Guid(e8bae36b607017047ace9061609051d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8bfab7f5a5d120af200287e9dbe6e1') in 0.075726 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 380.762494 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village House/Prefab
-  artifactKey: Guid(a112f3dab5ed8234cafe9bfb479e401c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village House/Prefab using Guid(a112f3dab5ed8234cafe9bfb479e401c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be1757983a80c1369f791f6bf60d902c') in 0.001020 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.055943 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village House/Prefab/PF House 01.prefab
-  artifactKey: Guid(a1e26548d26a42349afd673aefbd48d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village House/Prefab/PF House 01.prefab using Guid(a1e26548d26a42349afd673aefbd48d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a827df9c752f9ab8ed081338a489b00') in 0.132274 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 274
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village House/Prefab/PF House 04.prefab
-  artifactKey: Guid(0fd692632b0fdbb41ae4c1ca77c74df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village House/Prefab/PF House 04.prefab using Guid(0fd692632b0fdbb41ae4c1ca77c74df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc910860241698eba5030f16dd39fefb') in 0.041971 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 558
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village House/Prefab/PF House 06.prefab
-  artifactKey: Guid(368cb0481cea117489c150c28b2ab0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village House/Prefab/PF House 06.prefab using Guid(368cb0481cea117489c150c28b2ab0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3c730dfe2a478e6e0cdd1d484459bb') in 0.028884 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 177
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village House/Prefab/PF House 10.prefab
-  artifactKey: Guid(5abad144a2ce29748b1748caaf9a5a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village House/Prefab/PF House 10.prefab using Guid(5abad144a2ce29748b1748caaf9a5a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7344231b66e24398197fd00e8fba356') in 0.039942 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 247
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village House/Prefab/PF House 07.prefab
-  artifactKey: Guid(14137c8e282545f4b81fc929c729a368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village House/Prefab/PF House 07.prefab using Guid(14137c8e282545f4b81fc929c729a368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0cd7e9f86127d13a786c001c031ae32') in 0.040311 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 490
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village House/Prefab/PF House 08.prefab
-  artifactKey: Guid(9cac384616e7c3742adf4682400336f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village House/Prefab/PF House 08.prefab using Guid(9cac384616e7c3742adf4682400336f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd961dfac18ff2d0d81a93c61202fc029') in 0.045995 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 215
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village House/Prefab/PF House 05.prefab
-  artifactKey: Guid(9f74ff852ba0ec945be4e8bc072567fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village House/Prefab/PF House 05.prefab using Guid(9f74ff852ba0ec945be4e8bc072567fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4da075ef90804123e90d3ff21938303') in 0.039489 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 328
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village House/Prefab/PF House 03.prefab
-  artifactKey: Guid(097195a915d3ec54cb00c29b72e842be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village House/Prefab/PF House 03.prefab using Guid(097195a915d3ec54cb00c29b72e842be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a1fb3db838d0ef8d57106523066e9da') in 0.035440 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 327
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village House/Prefab/PF House 09.prefab
-  artifactKey: Guid(2e0c1156bda75f1419f2f594475a587b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village House/Prefab/PF House 09.prefab using Guid(2e0c1156bda75f1419f2f594475a587b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a9dbec776d092fd405b20781027e75') in 0.078260 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 338
-========================================================================
-Received Import Request.
-  Time since last request: 9.946582 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village House/Texture
-  artifactKey: Guid(25e66cc855114ff49a24c2fb8f1f6c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village House/Texture using Guid(25e66cc855114ff49a24c2fb8f1f6c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95fa0cbc9567764bb868e7f624e45a6a') in 0.000593 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.059058 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village House/Texture/TX Tileable Brick.png
-  artifactKey: Guid(72322a50dc6955840917d87ef83efa44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village House/Texture/TX Tileable Brick.png using Guid(72322a50dc6955840917d87ef83efa44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda01c08960266ccfe73458ee311f27b') in 0.047638 seconds
+  Time since last request: 0.078687 seconds.
+  path: Assets/Sprites/Knight_player/Attack_KG_1.png
+  artifactKey: Guid(6fc3d89de8cd8ea468b4607e51c9a259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Knight_player/Attack_KG_1.png using Guid(6fc3d89de8cd8ea468b4607e51c9a259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b44e4d3395ce057a7d3bf14106a6036') in 0.045669 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village House/Texture/TX Village House - Shadow.png
-  artifactKey: Guid(68118f9b8ad30234d9f1749a377b703b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village House/Texture/TX Village House - Shadow.png using Guid(68118f9b8ad30234d9f1749a377b703b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92cd9b80861a3482f8ddfedf994f1087') in 0.105368 seconds
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/Knight_player/Jump_KG_1.png
+  artifactKey: Guid(97afecf381a3e1342ba5ae948dc4dbd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Knight_player/Jump_KG_1.png using Guid(97afecf381a3e1342ba5ae948dc4dbd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4660022cb7f92c2d163cc60ca60069a5') in 0.010777 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 10.402442 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture
-  artifactKey: Guid(4fb7661537e28884697bca33184bdaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture using Guid(4fb7661537e28884697bca33184bdaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a0ad688b2e5e809388473c6ef8aa23') in 0.000597 seconds
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Knight_player/Ledge_Grab_KG_1.png
+  artifactKey: Guid(8e267818cdcf9b54a8c48d9e8159126b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Knight_player/Ledge_Grab_KG_1.png using Guid(8e267818cdcf9b54a8c48d9e8159126b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dcca2b1fcd660f07cddf13d9beb6517') in 0.010821 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.059126 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Chest Animation.png
-  artifactKey: Guid(19e07f9d107e445408633f50457d456e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Chest Animation.png using Guid(19e07f9d107e445408633f50457d456e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9ace7802c9c19c74dbb816abf58bbe') in 0.110738 seconds
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/Knight_player/Crouching_KG_1.png
+  artifactKey: Guid(f5156c18976b39b4da93ab9dac99190e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Knight_player/Crouching_KG_1.png using Guid(f5156c18976b39b4da93ab9dac99190e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f77101d67acc7e9279cfe92ffa38382c') in 0.011226 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/Knight_player/Landing_KG_1.png
+  artifactKey: Guid(a468592418ea37c48a12e85d3523294b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Knight_player/Landing_KG_1.png using Guid(a468592418ea37c48a12e85d3523294b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76fffe47e9900640e1a9e3aa1e43b07e') in 0.010580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Sprites/Knight_player/Hurt_KG_2.png
+  artifactKey: Guid(10d135b6f64d7d740a403ad05b85eeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Knight_player/Hurt_KG_2.png using Guid(10d135b6f64d7d740a403ad05b85eeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d84bea2b8f2081cb1288c1041f58572') in 0.010429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprites/Knight_player/Hurt_KG_1.png
+  artifactKey: Guid(d13fe1b800afd2c40a2b8c1fbae4fec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Knight_player/Hurt_KG_1.png using Guid(d13fe1b800afd2c40a2b8c1fbae4fec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '264b4a47d2dd64b6894a27ad23bb2ece') in 0.011646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/Knight_player/Crouching_Walk_KG_1.png
+  artifactKey: Guid(296102aee7d1b7743a3b80efa6cf7300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Knight_player/Crouching_Walk_KG_1.png using Guid(296102aee7d1b7743a3b80efa6cf7300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f882db9bfe9546693dfc3fa44ff4e0f6') in 0.009652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprites/Knight_player/Crouching_Idle_KG_2.png
+  artifactKey: Guid(7dd9dbb7334d62b4780248364763b719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Knight_player/Crouching_Idle_KG_2.png using Guid(7dd9dbb7334d62b4780248364763b719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64fc5f2b15ce3faa5ed0ec3fefcebe02') in 0.010691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Knight_player/Grab_idle_KG_1.png
+  artifactKey: Guid(0a0914465b4b06341956e62c51bedc16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Knight_player/Grab_idle_KG_1.png using Guid(0a0914465b4b06341956e62c51bedc16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c420c4929fcfcf63acaaea4601d683') in 0.010648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Sprites/Knight_player/Crouching_Walk_KG_2.png
+  artifactKey: Guid(32e3b65a59fc0b1448abedb0cbfdd088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Knight_player/Crouching_Walk_KG_2.png using Guid(32e3b65a59fc0b1448abedb0cbfdd088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b3a8c254ff15d6a97144e50911a664') in 0.010736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprites/Knight_player/Drinking_KG_1.png
+  artifactKey: Guid(869bbca78e87eaa4a9caa212057b7465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Knight_player/Drinking_KG_1.png using Guid(869bbca78e87eaa4a9caa212057b7465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c28ed44cad18618f59b76dbb934eddf') in 0.010611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/Knight_player/Power_Up_KG_1.png
+  artifactKey: Guid(58d8654f7ae58b84fabeeab5d068a75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Knight_player/Power_Up_KG_1.png using Guid(58d8654f7ae58b84fabeeab5d068a75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b95aba657e1f9a5878f76a2fec647a7') in 0.010158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/Knight_player/Dying_KG_1.png
+  artifactKey: Guid(3d6f428638ce59f4780c218fe6579fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Knight_player/Dying_KG_1.png using Guid(3d6f428638ce59f4780c218fe6579fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f2138d6f1677e3443126cfb1e21a4d') in 0.010763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprites/Knight_player/Attack_KG_3.png
+  artifactKey: Guid(80ec8b9ee310ef446a2cb04b1d0d7350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Knight_player/Attack_KG_3.png using Guid(80ec8b9ee310ef446a2cb04b1d0d7350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e03b72479ce2798f7b71478c082c3eb4') in 0.011041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
